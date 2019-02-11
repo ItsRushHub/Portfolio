@@ -1,0 +1,68 @@
+h1 {
+    float: left;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 100px;
+    line-height: 0.95;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    margin-left: 60px;
+    text-shadow: 2px 4px 10px black;
+}
+
+.navbar-brand {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #f8c836;
+    margin: 10px;
+}
+
+
+/* Hoover */
+
+.navbar-brand {
+    color: #f8c836;
+    padding: 10px;
+  }
+
+.navbar-brand:hover {
+    color: #a00c24;
+    padding: 10px;
+    
+}
+
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    color:#a00c24;;
+    font-size: 50px;
+    text-shadow: 2px 4px 10px black;
+}
+
+.graphicText {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 35px;
+    line-height: 0.5;
+    letter-spacing: 2px;
+    opacity: 0.25;
+    text-shadow: 2px 4px 10px black;
+}
+
+
+p {
+    float: right;
+    text-align: justify;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-shadow: 0px 4px 10px black;
+}
+
+.footer {
+    position: fixed;
+    color: white;
+    text-shadow: 0px 4px 10px black;
+}
