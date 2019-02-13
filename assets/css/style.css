@@ -10,6 +10,9 @@ h1 {
     text-shadow: 2px 4px 10px black;
 }
 
+
+
+/* Nav Bar Stuff */
 .navbar-brand {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,13 +32,12 @@ h1 {
 .navbar-brand:hover {
     color: #a00c24;
     padding: 10px;
-    
 }
 
-
+/* Body Info Stuff */
 h2 {
     font-family: 'Anton', sans-serif;
-    color:#a00c24;;
+    color:#a00c24;
     font-size: 50px;
     text-shadow: 2px 4px 10px black;
 }
@@ -45,24 +47,121 @@ h2 {
     color: white;
     font-size: 35px;
     line-height: 0.5;
-    letter-spacing: 2px;
     opacity: 0.25;
     text-shadow: 2px 4px 10px black;
 }
 
 
 p {
+    font-family: Arial, Helvetica, sans-serif;
     float: right;
     text-align: justify;
     padding: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: white;
-    text-shadow: 0px 4px 10px black;
+    text-shadow: 2px 3px 8px black;
 }
 
+
+/* Footer */
 .footer {
     position: fixed;
     color: white;
     text-shadow: 0px 4px 10px black;
+}
+
+
+/* Portfolio Page */
+#HipHop {
+    bottom: 30px;
+    position: relative;
+    float: left;
+    margin-left: 385px;
+}
+
+.text-block1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#Psychic {
+    position: relative;
+    bottom: 10px;
+    float: left;
+    margin-left: 100px;
+}
+
+.text-block2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#Crystal {
+    position: relative;
+    bottom: 10px;
+    float: right;
+    margin-left: 200px;
+}
+
+.text-block3 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#ProjectOne {
+    position: absolute;
+    top: 0px;
+    float: bottom;
+    margin-left: 100px;
+}
+
+.text-block5 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 0px;
+}
+
+/* Contact Info */
+
+.contactinfo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 4px 10px black;
+}
+
+/* Hoover For Contact Info */
+
+a {
+    color: white;
+    padding: 10px;
+  }
+
+a:hover {
+    color: #f8c836;
+    padding: 10px;
 }
