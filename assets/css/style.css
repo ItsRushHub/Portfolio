@@ -184,3 +184,167 @@ a:hover {
     color: #f8c836;
     padding: 10px;
 }
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 640px) {
+
+    /* Nav Bar Stuff */
+    .navbar-brand {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #f8c836;
+    margin: 5px;
+}    
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 100px;
+    line-height: 0.95;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    margin-left: 60px;
+    text-shadow: 2px 4px 10px black;
+}
+
+/* Hoover */
+.navbar-brand {
+    color: #f8c836;
+    padding: 10px;
+  }
+
+.navbar-brand:hover {
+    color: #a00c24;
+    padding: 10px;
+}
+
+/* Body Info Stuff */
+h2 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color:#a00c24;
+    font-size: 35px;
+    margin-top: 10px;
+    text-shadow: 2px 4px 10px black;
+}
+
+.graphicText {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 27px;
+    margin-top: -10px;
+    opacity: 0.25;
+    text-shadow: 2px 4px 10px black;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 3px 8px black;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    color: white;
+    margin-top: -10px;
+    text-shadow: 0px 4px 10px black;
+}
+
+/* Portfolio Page */
+#Giphy {
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    width: 40%;
+    height: auto;
+}
+
+.text-block1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#Psychic {
+    position: absolute;
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 160px;
+    width: 48%;
+    height: auto;
+}
+
+.text-block2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#Crystal {
+    position: relative;
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    width: 48%;
+    height: auto;
+}
+
+.text-block3 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#ProjectOne {
+    position: absolute;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 190px;
+    width: 40%;
+    height: auto;
+}
+
+.text-block4 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 5px;
+    background-color:#a00c24;
+    text-align: center;
+    color: #f8c836;
+    width: 100%;
+    margin-left: 10px;
+}
+
+/* Contact Info */
+.contactinfo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.75;
+    color: white;
+    text-shadow: 2px 4px 10px black;
+}
+
+}
