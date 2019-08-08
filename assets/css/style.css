@@ -4,7 +4,6 @@ body {
     background-color: black;
 }
 
-
 h1 {
     float: left;
     font-family: 'Anton', sans-serif;
@@ -57,12 +56,13 @@ h2 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    float: right;
+    float: left;
     text-align: justify;
-    padding: 40px;
+    padding: 10px;
     font-size: 15px;
-    color: white;
-    text-shadow: 2px 3px 8px black;
+    font-weight: normal;
+    color: black;
+    text-shadow: 2px 2px 6px white;
 }
 
 
@@ -75,11 +75,43 @@ p {
 
 
 /* Portfolio Page */
+#page2 {
+    height: 100%;
+    background-color: white;
+}
+
+h3 {
+    font-size: inherit;
+}
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    color:black;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+h5 {
+    font-family: 'Anton', sans-serif;
+    color:black;
+    font-size: 20px;
+    align-content: center;
+}
+
+p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: justify;
+    padding: 40px;
+    font-size: 15px;
+    color: grey;
+}
+
 #Giphy {
     position: relative;
-    float: right;
-    bottom: 30px;
-    /* margin-left: 385px; */
+    float: left;
+    padding-top: 20px;
+    margin-left: 50px;
 }
 
 .text-block1 {
@@ -89,15 +121,15 @@ p {
     background-color:#a00c24;
     text-align: center;
     color: #f8c836;
-    width: 90%;
+    width: 100%;
     margin-left: 10px;
 }
 
 #Psychic {
-    position: relative;
-    /* float: left; */
-    bottom: 10px;
-    /* margin-left: 100px; */
+    position: absolute;
+    float: left;
+    padding-top: 40px;
+    margin-left: 50px;
 }
 
 .text-block2 {
@@ -107,15 +139,15 @@ p {
     background-color:#a00c24;
     text-align: center;
     color: #f8c836;
-    width: 70%;
+    width: 100%;
     margin-left: 10px;
 }
 
 #Crystal {
     position: relative;
-    float: right;
-    bottom: 10px;
-    margin-left: 200px;
+    float: left;
+    padding-top: 40px;
+    margin-left: 50px;
 }
 
 .text-block3 {
@@ -125,63 +157,51 @@ p {
     background-color:#a00c24;
     text-align: center;
     color: #f8c836;
-    width: 91%;
+    width: 100%;
     margin-left: 10px;
 }
 
 #ProjectOne {
     position: absolute;
     float: right;
-    bottom: 10px;
-    margin-left: 30px;
+    padding-top: 40px;
+    margin-left: 50px;
 }
 
 .text-block4 {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    bottom: 5px;
     background-color:#a00c24;
     text-align: center;
     color: #f8c836;
-    width: 92%;
+    width: 100%;
     margin-left: 10px;
 }
 
-/* #ProjectTwo {
-    position: absolute;
-    float: right;
-    bottom: 10px;
-    /* margin-left: 50px; */
-} */
-
-.text-block5 {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    bottom: 5px;
-    background-color:#a00c24;
-    text-align: center;
-    color: #f8c836;
-    width: 86%;
-    margin-left: 10px;
-}
 
 /* Contact Info */
+#page3 {
+    height: max-content;
+    background-color: #B9B9B9;
+}
+
 .contactinfo {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 25px;
-    color: white;
-    text-shadow: 2px 4px 10px black;
+    color: black;
+    line-height: 1.8;
+    /* text-shadow: 2px 4px 10px black; */
 }
 
 /* Hoover For Contact Info */
 a {
-    color: white;
+    color: black;
     padding: 10px;
   }
 
 a:hover {
-    color: #f8c836;
+    color:#a00c24;
     padding: 10px;
 }
 
