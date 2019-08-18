@@ -97,7 +97,8 @@ h3 {
 
 h4 {
     font-family: 'Anton', sans-serif;
-    color:black;
+    /* color:black; */
+    color:#a00c24;
     font-size: 50px;
     padding-top: 20px;
 }
@@ -192,11 +193,14 @@ p2 {
 /* Skills Info */
 #page4 {
     height: 100%;
-    background-color: white;   
+    background-color: white;
+    inline-size:   
 }
 
-.skillsinfo {
+.skillsinfo img {
     align-content: center;
+    margin-right: 15px;
+    margin-bottom: 20px;
 }
 
 /* Contact Info */
