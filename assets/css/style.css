@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background: url(../images/macbookphoto.jpg) no-repeat;
     height: 100%;
@@ -66,10 +70,10 @@ p {
 }
 
 /* Oran Photo */
-OranPhoto.png {
+.Oran {
     border-radius: 150px;
     box-shadow: 0px 0px 20px black;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 
 /* Footer */
@@ -194,14 +198,39 @@ p2 {
 #page4 {
     height: 100%;
     background-color: white;
-    inline-size:   
 }
 
 .skillsinfo img {
-    align-content: center;
-    margin-right: 15px;
-    margin-bottom: 20px;
+    margin-right: 30px;
+    /* margin-bottom: 20px; */
 }
+
+
+* {box-sizing: border-box}
+
+/* .container {
+  width: 100%;
+} */
+
+.skills {
+  text-align: right;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  color: white;
+}
+
+.html {width: 90%; background-color:#23b7f7}
+.css {width: 80%; background-color: #23b7f7}
+.bootstrap {width: 80%; background-color: #23b7f7}
+.javascript {width: 50%; background-color: #23b7f7}
+.jquery {width: 50%; background-color: #23b7f7}
+
+
+
+
+
+
+
 
 /* Contact Info */
 #page5 {
