@@ -65,8 +65,6 @@ p {
     font-size: 15px;
     font-weight: normal;
     color: black;
-    /* text-shadow: 0px 2px 10px white, */
-    /* -1px -2px 10px white; */
 }
 
 /* Oran Photo */
@@ -202,34 +200,48 @@ p2 {
 
 .skillsinfo img {
     margin-right: 30px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 10px;
 }
-
 
 * {box-sizing: border-box}
 
-/* .container {
+.containerSkill {
   width: 100%;
-} */
+  margin-left: 50px;
+}
 
 .skills {
   text-align: right;
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
   color: white;
 }
 
-.html {width: 90%; background-color:#23b7f7}
-.css {width: 80%; background-color: #23b7f7}
-.bootstrap {width: 80%; background-color: #23b7f7}
-.javascript {width: 50%; background-color: #23b7f7}
-.jquery {width: 50%; background-color: #23b7f7}
+.html {
+    width: 90%;
+    background-color:#0f829b;
+}
 
+.css {
+    width: 80%;
+    background-color:#0f829b;
+}
 
+.bootstrap {
+    width: 80%;
+    background-color:#0f829b;
+}
 
+.javascript {
+    width: 50%;
+    background-color:#0f829b;
+}
 
-
-
+.jquery {
+    width: 50%;
+    background-color:#0f829b;
+}
 
 
 /* Contact Info */
