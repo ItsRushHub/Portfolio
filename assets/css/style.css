@@ -33,12 +33,13 @@ h1 {
 .navbar-brand {
     color: #f8c836;
     padding: 10px;
-  }
+}
 
 .navbar-brand:hover {
     color: #a00c24;
     padding: 10px;
 }
+
 
 /* Body Info Stuff */
 h2 {
@@ -99,7 +100,6 @@ h3 {
 
 h4 {
     font-family: 'Anton', sans-serif;
-    /* color:black; */
     color:#a00c24;
     font-size: 50px;
     padding-top: 20px;
