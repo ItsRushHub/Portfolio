@@ -20,7 +20,6 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['first_name']) ||
         !isset($_POST['last_name']) ||
         !isset($_POST['email']) ||
-        !isset($_POST['telephone']) ||
         !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
@@ -70,7 +69,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- place your own success html below -->
  
-Thank you for contacting us. We will be in touch with you very soon.
+Thank you for contacting me.
  
 <?php
 }
