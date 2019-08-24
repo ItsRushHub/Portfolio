@@ -243,7 +243,6 @@ p2 {
     background-color:#0f829b;
 }
 
-
 /* Contact Info */
 #page5 {
     height: max-content;
@@ -284,6 +283,27 @@ a:hover {
     color:#a00c24;
     padding: 10px;
 }
+
+/* Submit Button */
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a00c24;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+
+
 
 
 
