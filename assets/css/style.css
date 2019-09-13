@@ -29,13 +29,14 @@ h1 {
     margin: 10px;
 }
 
-.navbar-expand-md {
+.navbar-expand-md{
     position: fixed;
     overflow: hidden;
     width: 100%;
+    left: 0%;
     height: 40px;
     z-index: 10;
-    background-size: 100%;
+    padding-left: 50px;
     background-color: black;
 }
 
@@ -85,23 +86,26 @@ p {
     margin-bottom: 100px;
 }
 
-/* Footer */
-.footer {
-    position: fixed;
-    color: rgb(211, 203, 203);
-    text-shadow: 0px 4px 10px black;
+/* Intro Page */
+#intro {
+    height: 100%;
+    padding-top: 40px;
+    width: 100%;
 }
 
+
 /* About Page */
-#page2 {
+#about {
     height: 100%;
     background-color: white;
+    padding-top: 30px;
 }
 
 /* Portfolio Page */
-#page3 {
+#portfolio {
     height: 100%;
     background-color: white;
+    padding-top: 30px;
 }
 
 h3 {
@@ -203,9 +207,10 @@ p2 {
 }
 
 /* Skills Info */
-#page4 {
+#skills {
     height: 100%;
     background-color: white;
+    padding-top: 30px;
 }
 
 .skillsinfo img {
@@ -253,9 +258,10 @@ p2 {
 }
 
 /* Contact Info */
-#page5 {
+#contact {
     height: max-content;
     background-color: white;
+    padding-top: 30px;
 }
 
 .img-fluid {
@@ -275,17 +281,35 @@ input, textarea {
 
 
 /* Hoover For Contact Info */
-a {
+a img {
     padding: 10px;
   }
 
-a:hover {
+a img:hover {
     padding: 10px;
+    box-shadow: 0 0 20px #a00c24;
+    border-radius: 50px;
     opacity: 0.3;
 }
 
+/* Footer */
+p3, small {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color:black;
+    font-size: 15px;
+    font-style:oblique;
+    font-weight: lighter;
+}
+
+
+
+
+
+
 
 /* Submit Button */
+
 /* .button {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #a00c24;
