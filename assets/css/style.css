@@ -232,37 +232,36 @@ p2 {
   color: white;
 }
 
-.html {
-    width: 90%;
-    background-color:#0f829b;
-}
-
-.css {
-    width: 80%;
-    background-color:#0f829b;
-}
-
-.bootstrap {
-    width: 80%;
-    background-color:#0f829b;
-}
-
-.javascript {
-    width: 50%;
-    background-color:#0f829b;
-}
-
-.jquery {
-    width: 50%;
-    background-color:#0f829b;
-}
-
 /* Contact Info */
 #contact {
     height: max-content;
     background-color: white;
     padding-top: 30px;
 }
+
+
+.contactinfo img {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+
+.containerContact {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.contact {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+
+
+
 
 .img-fluid {
     padding-top: 20px;
